@@ -21,7 +21,7 @@ Attribution-ShareAlike 4.0 International License]].
 
 *** License per se
 
-Use [[file:./LICENSE Commons may be contacted at creativecommons.org.][this license]], as the =LICENSE= file. 
+Use [[file:./LICENSE][this license]], as the =LICENSE= file. 
 
 Shield:
 [[http://creativecommons.org/licenses/by-sa/4.0/][https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg]]
