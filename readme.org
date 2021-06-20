@@ -1,0 +1,33 @@
+* Repository as a copy and paste guide to =README= and Licensing using Org files.
+
+** Use Creative Commons Atribution Shake Alike, but commerciable (V 4.0).
+
+That means people can share, mix, and redistribute a new version, as they see fit. Also, they can profit on it. And, the particular file(s) that use this project will have to be open sourced under this same license.
+
+*** Symbols
+Use this code at the end of your file, as a footer. These are the symbols.
+
+#+begin_src org
+Shield:
+[[http://creativecommons.org/licenses/by-sa/4.0/][https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg]]
+
+This work is licensed under a
+[[http://creativecommons.org/licenses/by-sa/4.0/][Creative Commons
+Attribution-ShareAlike 4.0 International License]].
+
+[[http://creativecommons.org/licenses/by-sa/4.0/][https://licensebuttons.net/l/by-sa/4.0/88x31.png]]
+
+#+end_src
+
+*** License per se
+
+Use [[file:LICENSE::Creative Commons may be contacted at creativecommons.org.][this license]], as the =LICENSE= file. 
+
+Shield:
+[[http://creativecommons.org/licenses/by-sa/4.0/][https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg]]
+
+This work is licensed under a
+[[http://creativecommons.org/licenses/by-sa/4.0/][Creative Commons
+Attribution-ShareAlike 4.0 International License]].
+
+[[http://creativecommons.org/licenses/by-sa/4.0/][https://licensebuttons.net/l/by-sa/4.0/88x31.png]]
