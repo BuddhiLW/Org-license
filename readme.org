@@ -54,4 +54,4 @@ If you use an arch-based system, you could replicate the install, by following [
 How it renders in the browser, onde the font is installed:
 
 #+ATTR_HTML: :width 500px
-[[file:~/PP/Org-license/resources/cc-render.png]]
+[[file:./resources/cc-render.png]]
