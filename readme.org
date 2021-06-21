@@ -55,3 +55,36 @@ How it renders in the browser, onde the font is installed:
 
 #+ATTR_HTML: :width 500px
 [[file:./resources/cc-render.png]]
+
+
+* Emacs CC Unicode
+
+This is a setup for rendering the symbols in Emacs, once it's installed.
+
+#+begin_src emacs-lisp
+  ;; look-up table of symbols
+  ;;https://en.wikipedia.org/wiki/Enclosed_Alphanumeric_Supplement
+  ;; "CCSymbol"  U+1F16D - U+1F10F
+  (set-fontset-font "fontset-default"
+                    (cons (decode-char 'ucs #x1F10D)
+                          (decode-char 'ucs #x1F10f))
+                    "CC Symbols")
+  
+  (set-fontset-font "fontset-default"
+                    (cons (decode-char 'ucs #x1F16D)
+                          (decode-char 'ucs #x1F16f))
+                    "CC Symbols")
+  
+  ;; CCSymbols:style=Regular:fullname CC Symbols
+  
+  ;; See it render
+  ;; | Code  | Symbol | Name                                        |
+  ;; |-------+--------+---------------------------------------------|
+  ;; | 1F16D | 🅭      | Circled CC                                  |
+  ;; | 1F16E | 🅮      | Circled C With Overlaid Backslash           |
+  ;; | 1F16F | 🅯      | Circled Human Figure                        |
+  ;; | 1F10D | 🄍      | Circled Zero with Slash                     |
+  ;; | 1F10E | 🄎      | Circled Anticlockwise Arrow                 |
+  ;; | 1F10F | 🄏      | Circled Dollar Sign With Overlaid Backslash |
+#+end_src
+
