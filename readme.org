@@ -23,7 +23,6 @@ Attribution-ShareAlike 4.0 International License]].
 
 Use [[file:./LICENSE][this license]], as the =LICENSE= file. 
 
-
 *** The code should render as the following
 Shield:
 [[http://creativecommons.org/licenses/by-sa/4.0/][https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg]]
@@ -33,3 +32,22 @@ This work is licensed under a
 Attribution-ShareAlike 4.0 International License]].
 
 [[http://creativecommons.org/licenses/by-sa/4.0/][https://licensebuttons.net/l/by-sa/4.0/88x31.png]]
+
+
+** Unicode support
+
+There exists Common's License symbol's [[https://creativecommons.org/2020/03/18/the-unicode-standard-now-includes-cc-license-symbols/][support]] now. They are the following
+
+| Code  | Symbol | Name                                        |
+|-------+--------+---------------------------------------------|
+| 1F16D | 🅭      | Circled CC                                  |
+| 1F16E | 🅮      | Circled C With Overlaid Backslash           |
+| 1F16F | 🅯      | Circled Human Figure                        |
+| 1F10D | 🄍      | Circled Zero with Slash                     |
+| 1F10E | 🄎      | Circled Anticlockwise Arrow                 |
+| 1F10F | 🄏      | Circled Dollar Sign With Overlaid Backslash |
+
+You may [[https://www.ctrl.blog/file/2020-04-19_cc-symbols.zip][install this font]], locally. There is no broad coverage by standard fonts, although it's a standard since 2020. Credit for Daniel Aleksandersen for making this minimalistic font available. More on how to use it on [[https://www.ctrl.blog/entry/creative-commons-unicode-fallback-font.html][the web.]]
+
+If you use an arch-based system, you could replicate the install, by following [[https://forum.artixlinux.org/index.php/topic,2769.0.html][this post.]]
+
