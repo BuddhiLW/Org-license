@@ -51,3 +51,7 @@ You may [[https://www.ctrl.blog/file/2020-04-19_cc-symbols.zip][install this fon
 
 If you use an arch-based system, you could replicate the install, by following [[https://forum.artixlinux.org/index.php/topic,2769.0.html][this post.]]
 
+How it renders in the browser, onde the font is installed:
+
+#+ATTR_HTML: :width 500px
+[[file:~/PP/Org-license/resources/cc-render.png]]
